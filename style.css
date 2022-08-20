@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&display=swap');
+
+#body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+  }
+  /* header  style */
+#header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 10px;
+ }
+ #head-lift {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1;
+
+ }
+ #heager-logo{
+    margin-right: 10px;
+ }
+.h1-header{
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+    font-size: 30px;
+}
+.pargh-header{
+    font-weight: 10;
+    color: rgba(80, 78, 78, 0.918);
+    text-transform: capitalize;
+    
+}
+
+ #header-ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+ }
+ .l{
+    margin-left:10px;
+ }
+ /* main style */
+ main {
+
+    border-top-style: solid;
+    border-top-width: 10px;
+    padding-top: 40px;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    padding-bottom: 40px;
+    border-color: rgb(208, 208, 208);
+
+
+ }
+ #main-first{
+    line-height: 1;
+
+ }
+ .h1-main{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight:900;
+ }
+ .gg{
+    display: flex;
+    justify-content: space-between; 
+    color: rgba(159, 151, 151, 0.918);
+ }
+ .a{
+    color: rgba(159, 151, 151, 0.918);
+    text-decoration: none;
+  
+ }
+ .pargh-main{
+    
+    text-transform: capitalize;
+ }
+ .choc-pizza{
+    width: 100%;
+    margin-top: 30px;
+    filter:brightness(1.3) invert(.01);
+    background-blend-mode: overlay;
+ }
+ #main-secand {
+    text-indent: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: rgba(80, 78, 78, 0.918);
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+
+ }
+ .p1 ,.p2,.p3{
+    margin: 40px;
+ }
+#main-thired{
+    background: url(./assets/list-bg.png), rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px 30px;
+}
+.cc{
+    text-decoration: line-through;
+}
+.egg1{
+    text-decoration: line-through;
+  
+}
+/* footer style */
+#footer1{
+    display: flex;
+    justify-content: space-between;  
+    padding: 15px ;
+    font-size: 15px;
+    gap:10px;
+}
+#footer1 button {
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(211, 72, 62);
+    color: aliceblue;
+}
+#footer1 h2 {
+    font-weight: bold;
+}
+.footer2{
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-color: rgb(194, 196, 197);
+    text-align: center;
+    color:rgba(118, 113, 113, 0.918);
+}
+.footer-image{
+    position: relative;
+    margin-top: -20px;
+    background-blend-mode:luminosity;
+   
+    filter:brightness(2.5) grayscale(50%);
+}
